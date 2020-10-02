@@ -1,0 +1,25 @@
+2020-10-02T02:35:28.935812+00:00 app[api]: Initial release by user henrique9696@hotmail.com
+2020-10-02T02:35:28.935812+00:00 app[api]: Release v1 created by user henrique9696@hotmail.com
+2020-10-02T02:35:29.089478+00:00 app[api]: Release v2 created by user henrique9696@hotmail.com
+2020-10-02T02:35:29.089478+00:00 app[api]: Enable Logplex by user henrique9696@hotmail.com
+2020-10-02T02:36:00.000000+00:00 app[api]: Build started by user henrique9696@hotmail.com
+2020-10-02T02:36:24.987931+00:00 app[api]: Release v3 created by user henrique9696@hotmail.com
+2020-10-02T02:36:24.987931+00:00 app[api]: Deploy 4a3ece8b by user henrique9696@hotmail.com
+2020-10-02T02:36:25.002385+00:00 app[api]: Scaled to web@1:Free by user henrique9696@hotmail.com
+2020-10-02T02:36:28.861454+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-02T02:36:32.900941+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-02T02:36:32.901072+00:00 app[web.1]: * Environment: production
+2020-10-02T02:36:32.901168+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-02T02:36:32.901249+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-02T02:36:32.901322+00:00 app[web.1]: * Debug mode: off
+2020-10-02T02:36:32.915464+00:00 app[web.1]: * Running on http://0.0.0.0:27854/ (Press CTRL+C to quit)
+2020-10-02T02:36:33.000000+00:00 app[api]: Build succeeded
+2020-10-02T02:36:33.606011+00:00 heroku[web.1]: State changed from starting to up
+2020-10-02T02:37:00.486304+00:00 app[web.1]: 10.45.155.176 - - [02/Oct/2020 02:37:00] "GET / HTTP/1.1" 200 -
+2020-10-02T02:37:00.487169+00:00 heroku[router]: at=info method=GET path="/" host=safe-brushlands-54080.herokuapp.com request_id=a8cfd2b6-cd51-44c9-9def-afee2724eb92 fwd="177.81.72.27" dyno=web.1 connect=1ms service=5ms status=200 bytes=566 protocol=https
+2020-10-02T02:37:00.983925+00:00 app[web.1]: 10.45.155.176 - - [02/Oct/2020 02:37:00] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-02T02:37:00.984745+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=safe-brushlands-54080.herokuapp.com request_id=2bebea81-a903-49b8-9d19-9e8fc8cab1aa fwd="177.81.72.27" dyno=web.1 connect=1ms service=13ms status=404 bytes=379 protocol=https
+2020-10-02T02:37:18.192986+00:00 app[web.1]: 10.29.126.9 - - [02/Oct/2020 02:37:18] "GET / HTTP/1.1" 200 -
+2020-10-02T02:37:18.195295+00:00 heroku[router]: at=info method=GET path="/" host=safe-brushlands-54080.herokuapp.com request_id=58ddd95e-7a69-454b-973c-d39af956e30f fwd="177.81.72.27" dyno=web.1 connect=1ms service=6ms status=200 bytes=566 protocol=https
+2020-10-02T02:37:18.566466+00:00 app[web.1]: 10.29.126.9 - - [02/Oct/2020 02:37:18] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-02T02:37:18.567882+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=safe-brushlands-54080.herokuapp.com request_id=843c9bd9-1c6a-4660-a99b-5fb9f4d72d72 fwd="177.81.72.27" dyno=web.1 connect=1ms service=3ms status=404 bytes=379 protocol=https
